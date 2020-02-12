@@ -1,2 +1,2 @@
-# techdegree-project-2-mobile-first-responsive-layout
+Project 2: Mobile-first responsive layout based on given mockups.
  
