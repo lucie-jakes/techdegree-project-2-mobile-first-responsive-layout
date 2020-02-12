@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     color: rgb(41, 43, 43);
     margin: 0;
+    background: rgb(233, 228, 228);
 }
 
 p {
@@ -27,7 +28,6 @@ h3 {
     font-size: 1.75em;
     text-align: center;
     font-weight: 400;
-    color: rgb(45, 48, 48);
 }
 
 /* ul {
@@ -43,17 +43,23 @@ a {
 }
 
 a:hover {
-    color: steelblue;
+    color: rgb(70, 180, 120);
 }
 
 img {
     max-width: 100%;
 }
 
+span {
+    font-weight: 500;
+    padding-left: 20px;
+}
+
 
 
 /* ----- Base layout styles ----- */
 .portfolio-heading {
+    font-size: 2em;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -81,7 +87,7 @@ img {
 .main-nav {
     display: block;
     justify-content: space-around;
-    font-weight: 700;
+    font-weight: 900;
     list-style-type: none;
     margin: 20px 20px;
     padding: 0;
@@ -114,6 +120,16 @@ img {
 .column {
     padding-left: 1.25em;
     padding-right: 1.25em;
+    padding-bottom: 30px;
+}
+
+#portfolio {
+    background-color: #fff;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px 15px;
 }
 
 /* --- Footer --- */
