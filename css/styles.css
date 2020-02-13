@@ -30,6 +30,11 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-size: 1.25em;
+    padding: 5px 5px;
+    text-align: center;
+}
 /* ul {
     list-style-type: none;
     padding: 0;
@@ -55,7 +60,9 @@ span {
     padding-left: 20px;
 }
 
-
+i {
+    font-size: 4em;
+}
 
 /* ----- Base layout styles ----- */
 .portfolio-heading {
@@ -117,13 +124,20 @@ span {
     background: rgb(233, 228, 228);
 }
 
-.column {
+.project {
     padding-left: 1.25em;
     padding-right: 1.25em;
     padding-bottom: 30px;
 }
 
 #portfolio {
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.skills-section {
+    text-align: center;
+    padding: 20px 15px;
     background-color: #fff;
 }
 
@@ -167,19 +181,90 @@ hr {
 
 /* ----- Media queries ----- */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .main-nav a {
+        background-color: rgb(233, 228, 228);
+    }
+
+    .profile-image {
+        width: 40%;
+        float: right;
+        padding: 0;
+        margin-top: 40px;
+        margin-left: 15px;
+        padding-bottom: 40px;
+    }
+
+    .intro-text {
+        text-align: left;
+    }
+
+    .portfolio-heading {
+        margin-bottom: 0px;
+    }
+
+    .project {
+        width: 50%;
+        float: left;
+    }
+
+    .project p {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
     .top {
         display: none;
     }
-    /* --- Clearfix --- */
-    .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
+    
+    /* .container {
+        margin: 0 auto;
+        max-width: none;
+    }
 
+    .name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .intro-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile-image {
+        max-width: 400px;
+        padding: 0;
+        margin-top: 40px;
+        margin-left: 200px;
+        display: inline-block;
+    } */
+}
+
+/* --- Clearfix --- */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
