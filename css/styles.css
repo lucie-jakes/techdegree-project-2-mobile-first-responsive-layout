@@ -189,12 +189,18 @@ hr {
         max-width: 1000px;
     }
 
+    .name {
+        font-size: 2.5em;
+    }
+    
     .main-nav li {
         display: inline-block;
     }
 
     .main-nav a {
         background-color: rgb(233, 228, 228);
+        font-size: 1.5em;
+        font-weight: 700;
     }
 
     .profile-image {
@@ -208,6 +214,7 @@ hr {
 
     .intro-text {
         text-align: left;
+        font-size: 1.75em;
     }
 
     .portfolio-heading {
@@ -225,11 +232,53 @@ hr {
         margin: 0 auto;
     }
 
+    .skills-section h2 {
+        font-size: 2em;
+
+    }
+
+    .skills-wrap {
+        width: 33%;
+        float: left;
+        margin-bottom: 100px;
+    }
+
+    .contact-section {
+        font-size: 1.75em;
+    }
+
+    .main-footer {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 5px 20px;
+    }
 
     .top {
         display: none;
     }
 
+    .secondary-nav {
+        display: initial;
+        float: right;
+    }
+
+    .secondary-nav li {
+        display: inline-block;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .secondary-nav a {
+        text-transform: uppercase;
+        font-size: 1.25em;
+        padding: 5px 10px;
+    }
+
+    .name-footer {
+        font-size: 1.25em;
+    }
 
 }
 
