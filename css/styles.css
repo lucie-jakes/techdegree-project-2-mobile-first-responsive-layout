@@ -41,7 +41,9 @@ h4 {
     padding: 0;
     margin: 20px 20px;
 } */
-
+ul li {
+    list-style: none;
+}
 a {
     text-decoration: none;
     color: rgb(41, 43, 43);
@@ -69,10 +71,6 @@ i {
 .portfolio-heading {
     padding-top: 20px;
     padding-bottom: 30px;
-}
-
-.profile-image {
-    padding-top: 50px;
 }
 
 .intro-text {
@@ -131,14 +129,14 @@ i {
 }
 
 #portfolio {
-    background-color: #fff;
+    background-color: rgb(238, 238, 192);
     padding-top: 20px;
 }
 
 .skills-section {
     text-align: center;
     padding: 20px 15px;
-    background-color: #fff;
+    background-color: rgb(238, 238, 192);
 }
 
 .contact-section {
@@ -196,7 +194,7 @@ hr {
     .name {
         font-size: 2.5em;
     }
-    
+
     .main-nav li {
         display: inline-block;
     }
@@ -285,12 +283,56 @@ hr {
 
 @media (min-width: 1024px) {
     
-    /* .container {
+    .container {
         margin: 0 auto;
         max-width: none;
     }
 
     .name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .intro-section {
+        float: left;
+    }
+
+    .intro-text {
+        font-size: 2em;
+        text-align: left;
+    }
+
+    .profile-image {
+        margin-left: 40px;
+        margin-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .project {
+        width: 33%;
+        float: left;
+    }
+
+    .skills-wrap {
+        font-size: 1.625em;
+    }
+
+    .skills-wrap i {
+        font-size: 6em;
+    }
+
+    .main-footer {
+        font-size: 1.5em;
+    }
+
+    .secondary-nav {
+        padding-top: 10px;
+    }
+
+    /* .name {
         float: left;
     }
 
