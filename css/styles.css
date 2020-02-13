@@ -331,27 +331,6 @@ hr {
     .secondary-nav {
         padding-top: 10px;
     }
-
-    /* .name {
-        float: left;
-    }
-
-    .main-nav {
-        float: right;
-    }
-
-    .intro-text {
-        margin: 0;
-        padding: 0;
-    }
-
-    .profile-image {
-        max-width: 400px;
-        padding: 0;
-        margin-top: 40px;
-        margin-left: 200px;
-        display: inline-block;
-    } */
 }
 
 /* --- Clearfix --- */
