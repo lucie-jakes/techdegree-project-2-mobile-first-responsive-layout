@@ -22,6 +22,7 @@ p {
 h2 {
     text-align: center;
     text-transform: uppercase;
+    font-size: 2em;
 }
 
 h3 {
@@ -66,7 +67,6 @@ i {
 
 /* ----- Base layout styles ----- */
 .portfolio-heading {
-    font-size: 2em;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -183,6 +183,10 @@ hr {
 
 @media (min-width: 768px) {
     
+    h2 {
+        font-size: 2.25em;
+    }
+
     .container {
         width: 90%;
         margin: 0 auto;
@@ -232,19 +236,16 @@ hr {
         margin: 0 auto;
     }
 
-    .skills-section h2 {
-        font-size: 2em;
-
-    }
-
     .skills-wrap {
         width: 33%;
         float: left;
         margin-bottom: 100px;
     }
 
-    .contact-section {
+    .contact-section p {
         font-size: 1.75em;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .main-footer {
